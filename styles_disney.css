@@ -1,0 +1,504 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container-1 CSS starts here */
+.container-1 {
+    width: 100%;
+}
+
+.container-1 .nav-menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1% 0 1% 2%;
+}
+
+.container-1 .nav-menu span {
+    margin-left: 3%;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+}
+
+.container-1 .item:hover {
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+
+.content-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 3% 0%;
+}
+
+.content-img .image {
+    width: 24%;
+}
+
+.content-img .image .im {
+    width: 100%;
+    height: 400px;
+    box-shadow: 0px -60px 60px #222016 inset;
+    transition: 0.5s;
+    box-sizing: border-box;
+}
+
+/* 
+div {
+    height: 500px;
+    width: 800px;
+    background: url(https://lumiere-a.akamaihd.net/v1/images/disney-x-ginger-_-500-x-575_48785ba1.jpeg?region=0,0,500,575&width=480);
+    background-repeat: no-repeat;
+    background-size: 140% 140%;
+    transition: 1s;
+    border: 12px solid rgba(255, 255, 255, 0.18);
+    background-origin: border-box;
+}
+
+div:hover {
+    background-position: -100px 0;
+    border: 2px solid red;
+} */
+
+.content-img .image .im img {
+    width: 100%;
+    height: inherit;
+    position: relative;
+    z-index: -10;
+}
+
+.content-img .image .im:hover {
+    /* padding: ;
+    margin: 2% 1% -4% -1%;
+    width: 100%; */
+    transform: scale(1.03);
+}
+
+/* .content-img .image .im:hover::after {
+    box-shadow: 0px -60px 60px #222016 inset;
+} */
+
+.content-img .image .content-comment {
+    text-align: center;
+    margin-top: -20%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    z-index: 10;
+}
+
+.content-img .image .content-comment:hover {
+    transform: scale(1.02);
+}
+
+/* .content-img .image .content-comment:hover::before {
+    box-shadow: 0px -60px 60px #222016 inset;
+} */
+
+.content-img .image .content-comment .title {
+    font-weight: 400;
+    margin-bottom: 4%;
+    font-size: 1.2em;
+}
+
+/* Container-1 CSS ends here */
+
+/* Container-2 CSS starts here */
+.container-2 {
+    background-color: #eee;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 3% 6%;
+    height: auto;
+}
+
+.container-2 .module-1 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 4%;
+}
+
+.module-1 .header {
+    line-height: 1.5em;
+    font-family: sans-serif;
+    font-size: 1.875em;
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+
+.container-2 .module-1 .banner-trailer {
+    display: flex;
+    width: 100%;
+    height: auto;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner-trailer .banner-img {
+    width: 49%;
+    height: auto;
+}
+
+.banner-trailer .trailer {
+    width: 49%;
+    margin-left: 2%;
+}
+
+.banner-trailer .indent {
+    margin: 4% 0 0 4%;
+    font-size: 1.2em;
+}
+
+.banner-trailer .small {
+    margin: 2% 0 0 4%;
+    font-size: 0.8em;
+}
+
+.container-2 .module-2 {
+    width: 100%;
+    height: auto;
+}
+
+.module-2 .header {
+    line-height: 1.5em;
+    font-family: sans-serif;
+    font-size: 1.875em;
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+
+.container-2 .module-2 .banners {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+.module-2 .banners .banner2-img {
+    width: 32%;
+    height: auto;
+}
+
+.module-2 .banners .indent {
+    margin-top: 4%;
+    margin-bottom: 0%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+.module-2 .banners .small {
+    font-size: 0.8em;
+    margin-top: 2%;
+
+}
+
+.container-2 .module-3 {
+    /* width: 100%; */
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    /* margin-bottom: 1.5%; */
+}
+
+.module-3 .header {
+    line-height: 1.5em;
+    font-family: sans-serif;
+    font-size: 1.875em;
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+
+.container-2 .module-3 .banners {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.module-3 .banners .banner3-img {
+    width: 49%;
+    height: auto;
+}
+
+.module-3 .banners .trailer {
+    width: 49%;
+}
+
+.module-3 .banners .indent {
+    margin: 4% 0 0 4%;
+    font-size: 1.2em;
+}
+
+.module-3 .banners .small {
+    margin: 2% 0 0 4%;
+    font-size: 0.8em;
+}
+
+.module-3 .banners .smaller {
+    margin: 4% 0 0 4%;
+    font-size: 0.6em;
+}
+
+.module-3 .banners .smaller_tag {
+    margin: 6% 0 0 4%;
+    font-size: 0.6em;
+}
+
+/* container-2 CSS ends here */
+
+/* container-3 CSS start here */
+.container-3 {
+    width: 100%;
+    padding: 2% 3% 3% 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-3 .menu-left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.container-3 .menu-left .menu-left_span {
+    margin-left: 6%;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #303030;
+    font-weight: 600;
+}
+
+.container-3 .menu-left .menu-left_span span {
+    margin-right: 3em;
+}
+
+.container-3 .menu-right {
+    align-items: center;
+    font-size: x-large;
+}
+
+.container-3 .menu-right i {
+    padding-right: 1em;
+    padding-top: 0.5em;
+}
+
+/* container-3 CSS ends here */
+
+/* container-4 CSS starts here */
+.container-4 {
+    width: 100%;
+    height: auto;
+}
+
+.container-4 .footer-links {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75em;
+    margin-top: 1%;
+}
+
+/* .container-4 .footer-links .links {
+} */
+
+/* .container-4 .footer-links .links .links-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+} */
+
+
+.container-4 .footer-links span {
+    margin-right: 2em;
+}
+
+.container-4 .footer-cr {
+    display: flex;
+    justify-content: center;
+    margin: 2% 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75em;
+}
+
+/* container-4 CSS ends here */
+
+
+/* media-query for 960px starts here */
+@media screen and (max-width:960px) {
+    .content-img {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .content-img .image {
+        width: 49%;
+        margin-bottom: 3%;
+    }
+
+    .content-img .image .im {
+        margin-bottom: 5%;
+    }
+
+    .container-2 {
+        font-size: smaller;
+    }
+
+    .container-3 {
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .container-3 .menu-left {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .container-3 .menu-left img {
+        margin-left: -4%;
+    }
+
+    .container-3 .menu-left .menu-left_span {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        margin: 4% auto;
+    }
+
+    .container-3 .menu-right {
+        display: flex;
+        justify-content: center;
+        margin: 2% 0 6% 0;
+        font-size: xx-large;
+    }
+
+    .container-4 {
+        width: 100%;
+    }
+
+    .container-4 img {
+        margin-left: -4%;
+    }
+
+    .container-4 .footer-links .links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* width: 50%; */
+        /* flex-direction: column; */
+    }
+
+    .container-4 .footer-links .links-left {
+        /* width: 15%; */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-4 .footer-links .links-right {
+        /* width: 22%; */
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* media query for 960px ends here */
+
+/* media query for 680px starts here */
+@media screen and (max-width:680px) {
+    .content-img {
+        flex-wrap: wrap;
+    }
+
+    .content-img .image {
+        width: 100%;
+    }
+
+    .content-img .image .content-comment,
+    .content-img .image .content-comment .title {
+        margin-top: 2%;
+        color: #303030;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.95em;
+        margin-bottom: 0%;
+    }
+
+    .container-2 .module-1 .banner-trailer {
+        flex-direction: column;
+    }
+
+    .container-2 .module-1 .banner-trailer .banner-img,
+    .container-2 .module-1 .banner-trailer .trailer {
+        width: 100%;
+    }
+
+    .container-2 .module-1 .banner-trailer .trailer {
+        margin-left: 0;
+    }
+
+    .container-2 .module-1 .banner-trailer .trailer {
+        margin-top: 4%;
+    }
+
+    .container-2 .module-2 .banners {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container-2 .module-2 .banner2-img {
+        width: 100%;
+        margin-bottom: 4%;
+    }
+
+    .module-2 .banners .indent {
+        font-size: 0.9em;
+    }
+
+    .module-2 .banners .small {
+        font-size: 0.7em;
+    }
+
+    .container-2 .module-3 .banners {
+        flex-direction: column;
+    }
+
+    .container-2 .module-3 .banners .banner3-img,
+    .container-2 .module-3 .banners .trailer {
+        width: 100%;
+    }
+
+    .container-2 .module-3 .banners .trailer {
+        margin: 4% 0;
+    }
+
+    .container-3 .menu-left_span {
+        flex-direction: column;
+        text-align: center;
+        line-height: 3em;
+    }
+
+    .container-3 .menu-right i {
+        font-size: x-large;
+        margin-top: -1em;
+        margin-bottom: -1em;
+    }
+}
+
+/* media query for 680px ends here */
